@@ -320,3 +320,126 @@
         gap: 40px;
     }
 }
+
+/* ABOUT SECTION */
+.about {
+    padding: 80px var(--spacing-md);
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+.about__header {
+    max-width: 600px;
+    margin: 0 auto 60px;
+}
+
+.about__tag {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #e6f0fa;
+    color: var(--color-primary-dark);
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: var(--spacing-md);
+}
+
+.about__title {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: var(--spacing-md);
+    font-weight: 800;
+}
+
+.about__text {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+}
+
+.about__stats {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.stat-card {
+    text-align: center;
+}
+
+.stat-card__number {
+    display: block;
+    font-size: 36px;
+    font-weight: 800;
+    color: var(--color-primary); /* Matching MediaFire Blue style */
+    margin-bottom: 5px;
+}
+
+.stat-card__label {
+    font-style: 14px;
+    color: #666;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* CONTACT SECTION */
+.contact {
+    padding: 80px var(--spacing-md);
+    background-color: white;
+}
+
+.contact__container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact__title {
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: var(--spacing-sm);
+    color: #333;
+}
+
+.contact__text {
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.contact__form {
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group__label {
+    display: block;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: #333;
+    font-size: 14px;
+}
+
+.form-group__input,
+.form-group__textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 14px;
+    background-color: #fcfcfc;
+}
+
+.form-group__textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+@media (min-width: 768px) {
+    .about__stats {
+        gap: 80px;
+    }
+}
