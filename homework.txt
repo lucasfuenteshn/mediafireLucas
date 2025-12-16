@@ -1,0 +1,35 @@
+
+Objetivo
+
+Tomar el proyecto donde ya construyó el header Mobile First y extienda agregando 2 secciones adicionales en versión móvil, donde una de ellas debe ser obligatoriamente una sección de servicios, aplicando la metodología Mobile First, la convención BEM y la arquitectura de archivos CSS organizada vista en clase.
+Instrucciones de la actividad
+
+Cada estudiante deberá cumplir con los siguientes puntos:
+
+    Reutilizar el proyecto existente:
+        Trabajar sobre el mismo proyecto donde ya se construyó el header en Mobile First.
+        No crear un proyecto nuevo; se debe continuar sobre la estructura ya creada.
+    Agregar 2 secciones nuevas debajo del header:
+        Sección 1 (obligatoria): Servicios
+            Debe mostrar claramente los servicios que ofrece (reales o ficticios).
+            Pueden ser tarjetas, lista de servicios, íconos, precios básicos, etc.
+            Usar etiquetas semánticas como <section>, <h2>, <article>, <ul>, etc.
+        Sección 2 (a elección):
+            Puede ser una sección de “Sobre mí / Nosotros”, “Testimonios”, “Call to Action”, “Contacto”, “Beneficios”, etc.
+            Debe mantener coherencia visual con el header y la sección de servicios.
+    Aplicar metodología BEM:
+        Nombrar las clases siguiendo BEM, por ejemplo:
+            .services, .services__title, .services__list, .services__item, .services__item--featured
+            .about, .about__title, .about__text, etc.
+    Subir cambios al mismo repositorio público en GitHub:
+        Usar el mismo repositorio donde está el header ya construido.
+        Subir los cambios con un commit claro (por ejemplo: feat: agregar seccion de servicios y seccion about).
+
+Entrega
+
+    Captura del resultado final mostrando:
+        Header + sección de servicios + segunda sección agregada.
+        Vista en modo móvil (puede ser desde herramientas de desarrollador del navegador).
+    Enlace al repositorio público en GitHub donde esté el proyecto completo actualizado.
+
+Se adjunta un archivo PDF generado con la información anterior (capturas y breve explicación de las secciones) con el siguiente formato en el nombre: Replica_header_secciones_tunombre_tarea2.pdf
