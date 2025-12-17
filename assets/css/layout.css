@@ -286,6 +286,7 @@
         max-width: 1400px;
     }
 }
+
 .press {
     padding: 20px;
     text-align: center;
@@ -372,7 +373,8 @@
     display: block;
     font-size: 36px;
     font-weight: 800;
-    color: var(--color-primary); /* Matching MediaFire Blue style */
+    color: var(--color-primary);
+    /* Matching MediaFire Blue style */
     margin-bottom: 5px;
 }
 
@@ -446,7 +448,8 @@
 
 /* COMPLEX FOOTER STYLES */
 .footer {
-    background-color: #1e2329; /* Darker background */
+    background-color: #1e2329;
+    /* Darker background */
     color: #8c96a3;
     padding: 60px 20px 40px;
     font-family: 'Open Sans', sans-serif;
@@ -545,12 +548,7 @@
     text-decoration: underline;
 }
 
-@media (min-width: 768px) {
-    .footer__nav {
-        flex-direction: row; /* Horizontal on desktop if needed, but image shows stacked vertical vibe or centered. Keeping vertical for strict "list" look or adapting? User image implies vertical stacking of sections. */
-        gap: 60px;
-    }
-}
+
 
 /* TEXAS MAP STYLES */
 .footer__texas {
@@ -558,7 +556,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 120px; /* Adjust based on image size */
+    height: 120px;
+    /* Adjust based on image size */
     width: 100%;
     margin-bottom: 20px;
 }
@@ -566,7 +565,8 @@
 .footer__texas-map {
     height: 100%;
     width: auto;
-    opacity: 0.1; /* Subtle background effect like reference */
+    opacity: 0.1;
+    /* Subtle background effect like reference */
     position: absolute;
     top: 50%;
     left: 50%;
@@ -579,4 +579,38 @@
     font-size: 18px;
     font-weight: 600;
     color: white;
+}
+
+@media (min-width: 768px) {
+
+    /* Header Adjustments */
+    .header {
+        padding: 15px 40px;
+    }
+
+    /* About Section Adjustments */
+    .about__stats {
+        gap: 80px;
+    }
+
+    /* Contact Section Adjustments */
+    .contact__container {
+        max-width: 700px;
+    }
+
+    .contact__form {
+        background-color: #f8f9fa;
+        padding: 40px;
+        border-radius: 8px;
+    }
+
+    /* Footer Adjustments */
+    .footer__nav {
+        flex-direction: row;
+        gap: 40px;
+    }
+
+    .footer__legal-links {
+        max-width: 600px;
+    }
 }
