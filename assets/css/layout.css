@@ -329,6 +329,16 @@
     text-align: center;
 }
 
+.about__img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: var(--spacing-md);
+    border: 4px solid white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
 .about__header {
     max-width: 600px;
     margin: 0 auto 60px;
@@ -614,7 +624,9 @@
         max-width: 600px;
     }
 }
+
 @media (min-width: 1024px) {
+
     /* Header Adjustments */
     .header {
         padding: 15px 120px;
@@ -651,7 +663,8 @@
     .footer__texas {
         width: auto;
         margin-bottom: 0;
-        order: 1; /* Texas logo first */
+        order: 1;
+        /* Texas logo first */
     }
 
     .footer__nav {
@@ -673,13 +686,14 @@
         border-top: 1px solid #2b323b;
         padding-top: 20px;
     }
-    
+
     .footer__captcha {
         order: 5;
         width: 100%;
         text-align: right;
         border-top: none;
         padding-top: 0;
-        margin-top: -10px; /* Adjust spacing near legal section */
+        margin-top: -10px;
+        /* Adjust spacing near legal section */
     }
 }
